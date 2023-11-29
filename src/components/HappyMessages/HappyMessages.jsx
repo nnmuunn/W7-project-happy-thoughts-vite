@@ -18,8 +18,10 @@ export const HappyMessages = () => {
             <ul>
                 {thoughts.map(thought => (
                     <li key={thought._id} className="listOfThoughts">{thought.message}
-                    <p className="hearts"><Hearts /></p>
-                    <p className="date">long ago <HowLongAgo /></p>
+                    <p className="hearts">
+                        <Hearts /> 
+                        <HowLongAgo />
+                        </p>
                     </li>  
                 ))}
             </ul>

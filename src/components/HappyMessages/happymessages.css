@@ -5,17 +5,20 @@ ul {
 .listOfThoughts {
     text-align: left;
     border: solid 1px;
-    margin: 20px;
-    padding: 10px;
+    margin: auto;
+    padding: 50px;
+    box-shadow: 5px 5px black;
+    width: 50%;
+    margin-bottom: 10px;
 }
 
 
 
 .hearts {
     font-size: 20px;
-	color: #e00;
-	animation: beat .20s infinite alternate;
-	transform-origin: center;
+    color: #e00;
+    animation: beat .20s infinite alternate;
+    transform-origin: center;
 }
 
 .theHeart {
