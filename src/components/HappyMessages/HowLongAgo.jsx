@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react"
 
-export const HowLongAgo = (props) => {
+export const HowLongAgo = props => {
   const [boutYourTime, setBoutYourTime] = useState()
 
   useEffect(() => {
@@ -10,10 +10,10 @@ export const HowLongAgo = (props) => {
       console.log(json);
       setBoutYourTime(json)
     })
-  })
+  }, [])
   return (
     <div>
-      <p className="time"></p>
+      <p className="time">{props.createdAt}</p>
     </div>
   )
 }
