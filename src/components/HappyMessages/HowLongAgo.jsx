@@ -13,7 +13,7 @@ export const HowLongAgo = (props) => {
   })
   return (
     <div>
-      <p className="time"></p>
+      <p className="time"> TEEEEST</p>
     </div>
   )
 }
