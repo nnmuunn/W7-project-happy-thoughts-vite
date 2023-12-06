@@ -15,7 +15,7 @@ export const TextField = () => {
 
   const handleFormSubmit = async (event) => {
 
-      event.prevenDefault();
+      event.preventDefault();
       console.log("newPost onformsubmit:", newPost);
 
       if (newPost.length <= 4) {
